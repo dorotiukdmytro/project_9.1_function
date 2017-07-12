@@ -12,3 +12,5 @@ function getTriangleArea(a, h) {
 var triangle1Area = getTriangleArea(10, 15);
 var triangle2Area = getTriangleArea(14, 20);
 var triangle3Area = getTriangleArea(20, 40);
+console.log(triangle1Area);
+alert("Triangle field is: " + triangle3Area);
