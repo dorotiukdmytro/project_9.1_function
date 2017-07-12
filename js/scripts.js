@@ -1,18 +1,5 @@
 // scripts.js
 
-var
-	a = 4,
-	b = 2,
-	value = (a * a) + (2 * a * b) - (b * b);
-console.log("Result is: " + value);
-if (value > 0) {
-	console.log("Result is positive");
-} if (value < 0) {
-	console.log("Resalt is negative");
-} if (value == 0) {
-	console.log("Result is zero");
-}
-
 function getTriangleArea(a, h) {
 	if ((a <= 0) || (h <= 0)) {
 		return "Invalid data";
